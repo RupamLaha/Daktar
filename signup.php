@@ -20,7 +20,7 @@
         </div>
         <div class="col-md-6">
           <br>
-          <center><h4>Sign In</h4></center>
+          <center><h4>Sign Up</h4></center>
           <br>
           <form>
             <div class="form-group">
@@ -33,11 +33,11 @@
                 <input type="password" name="password" class="form-control">
               </div>
               <br>
-                <button class="btn btn-class">Log In</button>
+                <button class="btn btn-class">Sign Up</button>
               <div class="signup">
                 <br>
-                New to Daktar?
-                <a href="signup.php" class="signup-link">Sign Up</a>
+                Already have an account?
+                <a href="index.php" class="signup-link">Sign In</a>
               </div>
           </form>
         </div>
