@@ -14,12 +14,12 @@
     <div class="container">
       <div class="row content">
         <div class="col-12" id="login-doctor">
-          <a href="doctor-login.php">Login as Doctor</a>
+          <a href="index.php">Login as Patient</a>
         </div>
         <div class="col-md-6 mb-3">
-            <h2><center>Daktar</center></h2>
-            <img src="doc2.jpg" class="img-fluid" alt="image"><br><br>
-            <center>Now book your Doctor's appointment hasstle free in just a click</center>
+            <h2><center>Daktar</center></h2><br>
+            <img src="doc3.png" class="img-fluid" alt="image"><br><br>
+            <center>Now it is very easy to manage your patients appointments using Daktar platform</center>
         </div>
         <div class="col-md-6">
           <br>
@@ -40,7 +40,7 @@
               <div class="signup">
                 <br>
                 New to Daktar?
-                <a href="signup.php" class="signup-link">Sign Up</a>
+                <a href="doctor-signup.php" class="signup-link">Sign Up</a>
               </div>
           </form>
         </div>

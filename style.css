@@ -8,8 +8,18 @@ body{
 .content{
   margin: 8%;
   background-color: #ffffff;
-  padding: 4rem 1rem 4rem 1rem;
+  padding: 2rem 1rem 2rem 1rem;
   box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.05);
+}
+
+#login-doctor{
+  text-align: right;
+  margin-bottom: 1rem;
+}
+
+a{
+  text-decoration: none;
+  color: 	#DC143C;
 }
 
 .signin-text{
@@ -71,4 +81,9 @@ h4{
   width: 150px;
   border-radius: 25px;
   padding: 8px;
+}
+
+.form-check-input{
+  /* background-color: #1E90FF; */
+  border-color: #1E90FF;
 }

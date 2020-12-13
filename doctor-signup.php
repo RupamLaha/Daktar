@@ -14,18 +14,18 @@
     <div class="container">
       <div class="row content">
 
-        <!-- Doctor SignUp link -->
+        <!-- Patient SignUp link -->
 
         <div class="col-12" id="login-doctor">
-          <a href="doctor-signup.php">Signup as Doctor</a>
+          <a href="signup.php">Signup as Patient</a>
         </div>
 
         <!-- intro column... -->
 
         <div class="col-md-6 mb-3">
             <h2><center>Daktar</center></h2>
-            <img src="doc2.jpg" class="img-fluid" alt="image"><br><br>
-            <center>Now book your Doctor's appointment hasstle free in just a click</center>
+            <img src="doc3.png" class="img-fluid" alt="image"><br><br>
+            <center>Now it is very easy to manage your patients appointments using Daktar platform</center>
         </div>
 
         <!-- //form column... -->
@@ -37,37 +37,59 @@
           <form>
             <!-- //name... -->
             <div class="form-group">
-              <label for="name">Name</label>
+              <lable for="name">Name</lable>
               <input type="text" name="name" class="form-control">
               <br>
             </div>
             <!-- //email... -->
             <div class="form-group">
-              <label for="email">Email</label>
+              <lable for="email">Email</lable>
               <input type="email" name="email" class="form-control">
+              <br>
+            </div>
+            <!-- //registration_no -->
+            <div class="form-group">
+              <lable for="registration_no">Registration No.</lable>
+              <input type="text" name="registration_no" class="form-control">
+              <br>
+            </div>
+            <!-- //specialization... -->
+            <div class="form-group">
+              <label for="FormControlSelect1">Specialization</label>
+              <select class="form-control" id="FormControlSelect1">
+                <option selected disabled hidden></option>
+                <option>Cardiology</option>
+                <option>Oncology</option>
+                <option>Neurology</option>
+                <option>Urology</option>
+                <option>Surgical Gastroenterology</option>
+                <option>Medical Gastroenterology</option>
+                <option>Obstetrics and Gynaecology</option>
+                <option>Bone Marrow Transplant</option>
+              </select>
               <br>
             </div>
             <!-- //address... -->
             <div class="form-group">
-              <label for="address">Address</label>
+              <lable for="address">Address</lable>
               <input type="text" name="address" class="form-control">
               <br>
             </div>
             <!-- //city... -->
               <div class="form-group">
-                <label for="city">City</label>
+                <lable for="city">City</lable>
                 <input type="text" class="form-control" name="city">
                 <br>
               </div>
               <!-- //state... -->
               <div class="form-group">
-                <label for="state">State</label>
+                <lable for="state">State</lable>
                 <input type="text" class="form-control" name="state">
                 <br>
               </div>
               <!-- //pin... -->
               <div class="form-group">
-                <label for="pin">Pin</label>
+                <lable for="pin">Pin</lable>
                 <input type="text" class="form-control" name="pin">
                 <br>
               </div>
@@ -98,6 +120,13 @@
             </div>
             <br>
 
+            <!-- //consultation_fee.. -->
+            <div class="form-group">
+              <lable for="consultation_fee">Consultation Fee</lable>
+              <input type="number" id="replyNumber" min="0" step="1" class="form-control" />
+            </div>
+            <br>
+
             <!-- //password... -->
             <div class="form-group">
               <lable for="password">Password</lable>
@@ -116,7 +145,7 @@
               <!-- //signin link -->
             <br>
               Already have an account?
-              <a href="index.php" class="signup-link">Sign In</a>
+              <a href="doctor-login.php" class="signup-link">Sign In</a>
             </div>
           </form>
         </div>
